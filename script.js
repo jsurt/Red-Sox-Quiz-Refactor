@@ -33,7 +33,7 @@ function createQuestion() {
 
 function alertCorrect() { 
   if (questionIndex < 9) {
-    return `<form class="next-question-form"><h2>Nice Job!</h2><p>Let's go for the next one</p><input type="submit" value="Next Question" class="next-question-button" role="button"/></form>`;
+    return `<form class="next-question-form"><h2>Nice Job!</h2><p>Let's go for the next one!</p><input type="submit" value="Next Question" class="next-question-button" role="button"/></form>`;
   } else {
     return `<form class="next-question-form"><h2>Nice Job!</h2><p>Let's see how you did...</p><input type="submit" value="See Results" class="next-question-button" role="button"/></form>`;
   }
